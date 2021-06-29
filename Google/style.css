@@ -1,0 +1,155 @@
+#Logo-Google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28vh;
+  }
+
+  #search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7vh;
+  }
+
+  #search-bar > #bar {
+    border-radius: 24px;
+    border: 0.5px solid #dadada;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 12px 10px;
+    outline: none;
+    word-wrap: break-word;
+    display: flex;
+    flex: 100%;
+    width: 30%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_Magnifying_Glass.svg/512px-Google_Magnifying_Glass.svg.png"), url("/micro.png") ;
+    background-size: 4%;
+    background-position: 10px 10px, 500px 10px;
+    padding-left: 40px;
+    background-repeat: no-repeat, no-repeat;
+    margin-top: -37px;
+    font-size: 16px;
+  }
+
+  #search-bar > #micro {
+    word-wrap: break-word;
+    display: flex;
+    flex: 100%;
+    background-size: 14%;
+    background-position: 10px 10px;
+    padding-left: 500px;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+  }
+   
+  #search-bar > #buttons {
+    margin-top: 2%;
+  }
+
+  #search-bar > #buttons > button {
+    background-color: #F8F8FA;
+    border-radius: 2px;
+    border: none;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px;
+  }
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+#footer > hr {
+  border-color: #bebebe2d;
+  height: 0.1px;
+}
+
+#footer{
+  background: #F2F2F2;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  height: 12%;
+
+  }
+
+
+#footer > #top {
+    top: 0%;
+  }
+
+  #footer > #bottom > ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#footer > #bottom > li{
+  margin-left:2px;
+}
+
+#footer > #bottom ul > li > a {
+  display:block;
+  float:left;
+  color: #70757a;
+  text-decoration:none;
+  text-align:center;
+  padding:5px;
+}
+
+#footer > #bottom > ul > li > a:hover {
+  text-decoration:underline;
+} 
+
+a.gb_f, span.gb_f {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.gb_g .gb_f {
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.button {
+  background: #1a73e8;
+  color :papayawhip;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  border-radius: 4px;
+  padding:9px 23px;
+  margin:0px 8px;
+  border-style: none;
+
+}
+.nav_container
+{
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.nav_container ul {
+  margin: 0;
+  padding:0 4 0 32;
+  list-style-type: none;
+  display:flex;
+  justify-content:flex-end;
+}
+.nav_container li {
+  margin:5px;
+ }
+.nav_container {
+  padding:0 4 0 32;
+}
